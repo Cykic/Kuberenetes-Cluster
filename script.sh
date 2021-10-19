@@ -8,6 +8,7 @@ kubectl get all | grep mongodb
 kubectl get pod | kubectl get pod -o wide
 kubectl get deployment
 kubectl get service
+kubectl get endpoints
 kubectl delete deploy [NAME]
 kubectl describe pod [NAME]
 
